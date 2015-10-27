@@ -1,0 +1,32 @@
+{
+  "name": "clearingnummer",
+  "version": "0.1.0",
+  "description": "Clearing numbers for Swedish banks",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/believer/clearingnummer.git"
+  },
+  "keywords": [
+    "Clearing",
+    "Number",
+    "Swedish",
+    "Banks"
+  ],
+  "author": "Rickard Laurin <rickard.laurin@gmail.com> (http://rickardlaurin.se/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/believer/clearingnummer/issues"
+  },
+  "homepage": "https://github.com/believer/clearingnummer#readme",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
