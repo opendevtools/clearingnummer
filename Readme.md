@@ -10,6 +10,7 @@ npm install clearingnummer --save
 ### Services
 
 #### bankName
+Retrieve bank name for a given number
 ```
 var clearingnummer = require('clearingnummer');
 
@@ -18,6 +19,7 @@ clearingnummer.bankName(5202);
 ```
 
 #### clearingNumbers
+Retrieve clearing numbers for a given bank name
 ```
 var clearingnummer = require('clearingnummer');
 
