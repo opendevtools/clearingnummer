@@ -1,5 +1,4 @@
 ## Clearingnummer
-============
 
 Clearing numbers are four or five digit identifiers for Swedish banks. This is service that helps you find the bank related to a specific number. All clearing numbers are taken from [Wikipedia](http://www.wikiwand.com/sv/Lista_%C3%B6ver_clearingnummer_till_svenska_banker).
 
