@@ -30,6 +30,19 @@ clearingnummer.clearingNumbers('Ålandsbanken');
    }]
 ```
 
+#### allBanks
+Retrieve the names of all banks in the listing
+```
+var clearingnummer = require('clearingnummer');
+
+clearingnummer.allBanks();
+// [
+  'ABN AMRO',
+  'Avanza Bank'
+  ...
+]
+```
+
 ### Tests
 ```
 npm test
