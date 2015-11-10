@@ -1,5 +1,5 @@
 var _ = require('lodash');
-var banks = require('./clearingNumbers.json');
+var banks = require('./clearingNumbers');
 
 function bankName (number) {
   var inRange = _.map(banks, function (bank) {

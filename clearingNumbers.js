@@ -1,4 +1,4 @@
-[
+module.exports = [
   {
     "bank": "ABN AMRO",
     "ranges": [
