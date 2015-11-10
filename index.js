@@ -22,7 +22,14 @@ function clearingNumbers (bankName) {
   }).ranges;
 }
 
+function allBanks () {
+  return banks.map(function (bank) {
+    return bank.bank
+  });
+}
+
 module.exports = {
   bankName: bankName,
-  clearingNumbers: clearingNumbers
+  clearingNumbers: clearingNumbers,
+  allBanks: allBanks
 };

@@ -290,3 +290,19 @@ describe('#clearingNumbers', function () {
       ]);
   });
 });
+
+describe('#allBanks', function () {
+  var allBanks;
+
+  beforeEach(function () {
+    allBanks = require('../').allBanks;
+  });
+
+  it('should return a list', function () {
+    expect(allBanks().length > 0).to.be.true;
+  });
+
+  it('should return a list of banks', function () {
+    expect(allBanks().indexOf('SEB') > -1).to.be.true;
+  });
+});
