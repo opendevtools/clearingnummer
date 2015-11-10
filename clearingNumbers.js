@@ -666,33 +666,6 @@ module.exports = [
     ]
   },
   {
-    "bank": "Sörmlands Sparbank",
-    "ranges": [
-      {
-        "min": 8257,
-        "max": 8257
-      }
-    ]
-  },
-  {
-    "bank": "Vadstena Sparbank",
-    "ranges": [
-      {
-        "min": "8383-2",
-        "max": "8383-2"
-      }
-    ]
-  },
-  {
-    "bank": "Westra Wermlands Sparbank",
-    "ranges": [
-      {
-        "min": "8431-9",
-        "max": "8431-9"
-      }
-    ]
-  },
-  {
     "bank": "Ålandsbanken",
     "ranges": [
       {
