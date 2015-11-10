@@ -105,7 +105,7 @@ describe('#bank', function () {
   });
 
   it('should return correct name for 8257', function () {
-    expect(bank(8257)).to.eql('Sörmlands Sparbank');
+    expect(bank(8257)).to.eql('Swedbank');
   });
 
   it('should return correct name for 8264', function () {
@@ -129,7 +129,7 @@ describe('#bank', function () {
   });
 
   it('should return correct name for 8383-2', function () {
-    expect(bank('8383-2')).to.eql('Vadstena Sparbank');
+    expect(bank('8383-2')).to.eql('Swedbank');
   });
 
   it('should return correct name for 8393-1', function () {
@@ -137,7 +137,7 @@ describe('#bank', function () {
   });
 
   it('should return correct name for 8431-9', function () {
-    expect(bank('8431-9')).to.eql('Westra Wermlands Sparbank');
+    expect(bank('8431-9')).to.eql('Swedbank');
   });
 
   it('should return correct name for range 9020-9029', function () {
@@ -256,7 +256,11 @@ describe('#bank', function () {
     expect(bank(9961)).to.eql('Plusgirot Bank');
   });
 
-  it('should return empty if all are undefined', () => {
+  it('should return correct name for special Swedbank 8327-9', function () {
+    expect(bank('8327-9')).to.eql('Swedbank');
+  });
+
+  it('should return empty if all are undefined', function () {
     expect(bank(52)).to.eql('');
   });
 });
