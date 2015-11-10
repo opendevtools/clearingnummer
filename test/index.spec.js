@@ -255,6 +255,10 @@ describe('#bank', function () {
   it('should return correct name for range 9960-9969', function () {
     expect(bank(9961)).to.eql('Plusgirot Bank');
   });
+
+  it('should return empty if all are undefined', () => {
+    expect(bank(52)).to.eql('');
+  });
 });
 
 describe('#clearingNumbers', function () {

@@ -12,7 +12,8 @@ function bankName (number) {
       }
     })
 
-  return _.first(_.compact(inRange)).bank || '';
+  var results = _.first(_.compact(inRange));
+  return results ? results.bank : '';
 }
 
 function clearingNumbers (bankName) {
