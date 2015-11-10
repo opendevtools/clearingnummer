@@ -2,9 +2,14 @@ var _ = require('lodash');
 var banks = require('./clearingNumbers');
 
 function bankName (number) {
+  number = number.toString();
+
   var inRange = _.map(banks, function (bank) {
       var filter = _.filter(bank.ranges, function (range) {
-        return _.inRange(number, range.min, range.max) || (range.min === number && range.max === number);
+        var min = range.min.toString();
+        var max = range.max.toString();
+
+        return _.inRange(number, min, max) || (min === number && max === number);
       });
 
       if (filter.length) {
