@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "quotes": [2, "single"],
+    "strict": [1, "never"],
+    "semi": [2, "never"],
+    "prefer-const": 2,
+    "no-unexpected-multiline": 2,
+    "comma-dangle": [2, "never"],
+    "object-curly-spacing": [2, "always"],
+    "comma-spacing": 2,
+    "no-unused-vars": 2,
+    "quote-props": [2, "as-needed"],
+    "indent": [2, 2]
+  }
+}
