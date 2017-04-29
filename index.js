@@ -1,11 +1,11 @@
 var _ = require('lodash')
 var banks = require('./clearingNumbers')
 
-function bankName (number) {
-  number: string = number.toString()
+function bankName(number) {
+  number = number.toString()
 
-  var inRange = _.map(banks, function (bank) {
-    var filter = _.filter(bank.ranges, function (range) {
+  var inRange = _.map(banks, function(bank) {
+    var filter = _.filter(bank.ranges, function(range) {
       var min = range.min.toString()
       var max = range.max.toString()
 
@@ -21,14 +21,14 @@ function bankName (number) {
   return results ? results.bank : ''
 }
 
-function clearingNumbers (bankName) {
-  return _.find(banks, function (bank) {
+function clearingNumbers(bankName) {
+  return _.find(banks, function(bank) {
     return bank.bank === bankName
   }).ranges
 }
 
-function allBanks () {
-  return banks.map(function (bank) {
+function allBanks() {
+  return banks.map(function(bank) {
     return bank.bank
   })
 }
