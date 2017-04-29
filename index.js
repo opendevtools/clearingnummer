@@ -1,36 +1,42 @@
-var _ = require('lodash')
-var banks = require('./clearingNumbers')
+const banks = require('./clearingNumbers')
 
 function bankName(number) {
-  number = number.toString()
+  const numberString = number.toString()
 
-  var inRange = _.map(banks, function(bank) {
-    var filter = _.filter(bank.ranges, function(range) {
-      var min = range.min.toString()
-      var max = range.max.toString()
+  const found = banks
+    .map(bank => {
+      const foundBank = bank.ranges.filter(range => {
+        var min = range.min.toString()
+        var max = range.max.toString()
 
-      return _.inRange(number, min, max) || (min === number && max === number)
+        if (
+          min === numberString ||
+          max === numberString ||
+          (number > range.min && number < range.max)
+        ) {
+          return true
+        }
+
+        return false
+      })
+
+      if (foundBank.length) {
+        return bank
+      }
     })
+    .filter(Boolean)
 
-    if (filter.length) {
-      return bank
-    }
-  })
-
-  var results = _.first(_.compact(inRange))
-  return results ? results.bank : ''
+  return found.length ? found[0].bank : ''
 }
 
 function clearingNumbers(bankName) {
-  return _.find(banks, function(bank) {
-    return bank.bank === bankName
-  }).ranges
+  const bank = banks.filter(bank => bank.bank === bankName)
+
+  return bank.length ? bank[0].ranges : []
 }
 
 function allBanks() {
-  return banks.map(function(bank) {
-    return bank.bank
-  })
+  return banks.map(bank => bank.bank)
 }
 
 module.exports = {
