@@ -1,6 +1,6 @@
 module.exports = [
   {
-    bank: 'ABN AMRO',
+    bank: 'Royal Bank of Scotland',
     ranges: [
       {
         min: 9090,
@@ -9,24 +9,38 @@ module.exports = [
     ]
   },
   {
-    bank: 'Avanza Bank',
+    bank: 'Amfa Bank',
     ranges: [
       {
-        min: 9550,
-        max: 9550
-      },
-      {
-        min: 9559,
-        max: 9559
+        min: 9660,
+        max: 9669
       }
     ]
   },
   {
-    bank: 'Bank2',
+    bank: 'Avanza Bank',
+    ranges: [
+      {
+        min: 9550,
+        max: 9569
+      }
+    ]
+  },
+  {
+    bank: 'Marginalen Bank',
     ranges: [
       {
         min: 9230,
-        max: 9230
+        max: 9239
+      }
+    ]
+  },
+  {
+    bank: 'Bluestep Finans',
+    ranges: [
+      {
+        min: 9680,
+        max: 9689
       }
     ]
   },
@@ -35,7 +49,7 @@ module.exports = [
     ranges: [
       {
         min: 9080,
-        max: 9080
+        max: 9089
       }
     ]
   },
@@ -49,15 +63,6 @@ module.exports = [
     ]
   },
   {
-    bank: 'Coop Bank',
-    ranges: [
-      {
-        min: 9290,
-        max: 9299
-      }
-    ]
-  },
-  {
     bank: 'Danske Bank',
     ranges: [
       {
@@ -67,6 +72,10 @@ module.exports = [
       {
         min: 2400,
         max: 2499
+      },
+      {
+        min: 9180,
+        max: 9189
       }
     ]
   },
@@ -76,6 +85,10 @@ module.exports = [
       {
         min: 9190,
         max: 9199
+      },
+      {
+        min: 9260,
+        max: 9269
       }
     ]
   },
@@ -83,8 +96,8 @@ module.exports = [
     bank: 'Ekobanken',
     ranges: [
       {
-        min: 9548,
-        max: 9548
+        min: 9700,
+        max: 9709
       }
     ]
   },
@@ -98,6 +111,15 @@ module.exports = [
     ]
   },
   {
+    bank: 'Folkia',
+    ranges: [
+      {
+        min: 9690,
+        max: 9699
+      }
+    ]
+  },
+  {
     bank: 'Forex Bank',
     ranges: [
       {
@@ -107,24 +129,20 @@ module.exports = [
     ]
   },
   {
-    bank: 'GE Money Bank',
+    bank: 'Fortis Bank',
     ranges: [
       {
-        min: 9460,
-        max: 9460
-      },
-      {
-        min: 9469,
-        max: 9469
+        min: 9470,
+        max: 9479
       }
     ]
   },
   {
-    bank: 'Gjensidige NOR Sparebank',
+    bank: 'Santander Consumer Bank',
     ranges: [
       {
-        min: 9260,
-        max: 9269
+        min: 9460,
+        max: 9469
       }
     ]
   },
@@ -134,15 +152,6 @@ module.exports = [
       {
         min: 6000,
         max: 6999
-      }
-    ]
-  },
-  {
-    bank: 'HSB Bank',
-    ranges: [
-      {
-        min: 9050,
-        max: 9059
       }
     ]
   },
@@ -168,21 +177,17 @@ module.exports = [
     bank: 'JAK Medlemsbank',
     ranges: [
       {
-        min: 9549,
-        max: 9549
+        min: 9670,
+        max: 9679
       }
     ]
   },
   {
-    bank: 'JP Nordiska',
+    bank: 'Landshypotek Bank',
     ranges: [
       {
-        min: 2300,
-        max: 2309
-      },
-      {
-        min: 2311,
-        max: 2399
+        min: 9390,
+        max: 9399
       }
     ]
   },
@@ -213,6 +218,15 @@ module.exports = [
     ]
   },
   {
+    bank: 'MedMera Bank',
+    ranges: [
+      {
+        min: 9650,
+        max: 9659
+      }
+    ]
+  },
+  {
     bank: 'Nordea',
     ranges: [
       {
@@ -238,6 +252,14 @@ module.exports = [
       {
         min: 3783,
         max: 4999
+      },
+      {
+        min: 9500,
+        max: 9549
+      },
+      {
+        min: 9960,
+        max: 9969
       }
     ]
   },
@@ -259,20 +281,151 @@ module.exports = [
     ranges: [
       {
         min: 9100,
-        max: 9100
+        max: 9109
       }
     ]
   },
   {
-    bank: 'Plusgirot Bank',
+    bank: 'Nasdaq-OMX',
     ranges: [
       {
-        min: 9500,
-        max: 9547
-      },
+        min: 9870,
+        max: 9879
+      }
+    ]
+  },
+  {
+    bank: 'Riksgälden',
+    ranges: [
       {
-        min: 9960,
-        max: 9969
+        min: 9880,
+        max: 9889
+      }
+    ]
+  },
+  {
+    bank: 'Nykredit',
+    ranges: [
+      {
+        min: 9950,
+        max: 9950
+      }
+    ]
+  },
+  {
+    bank: 'Teller Branch Norway',
+    ranges: [
+      {
+        min: 9951,
+        max: 9951
+      }
+    ]
+  },
+  {
+    bank: 'Bankernas Automatbolag',
+    ranges: [
+      {
+        min: 9952,
+        max: 9952
+      }
+    ]
+  },
+  {
+    bank: 'Teller Branch Sweden',
+    ranges: [
+      {
+        min: 9953,
+        max: 9953
+      }
+    ]
+  },
+  {
+    bank: 'Kortaccept Nordic',
+    ranges: [
+      {
+        min: 9954,
+        max: 9954
+      }
+    ]
+  },
+  {
+    bank: 'Exchange Finans Europe',
+    ranges: [
+      {
+        min: 9580,
+        max: 9589
+      }
+    ]
+  },
+  {
+    bank: 'Erik Penser Bankaktiebolag',
+    ranges: [
+      {
+        min: 9590,
+        max: 9599
+      }
+    ]
+  },
+  {
+    bank: 'Volvofinans Bank',
+    ranges: [
+      {
+        min: 9610,
+        max: 9619
+      }
+    ]
+  },
+  {
+    bank: 'Bank of China (Luxembourg)',
+    ranges: [
+      {
+        min: 9620,
+        max: 9629
+      }
+    ]
+  },
+  {
+    bank: 'Lån & Spar Bank',
+    ranges: [
+      {
+        min: 9630,
+        max: 9639
+      }
+    ]
+  },
+  {
+    bank: 'Nordax Finans',
+    ranges: [
+      {
+        min: 9640,
+        max: 9649
+      }
+    ]
+  },
+  {
+    bank: 'Pareto Öhman',
+    ranges: [
+      {
+        min: 9380,
+        max: 9389
+      }
+    ]
+  },
+  {
+    bank: 'Parex Bank',
+    ranges: [
+      {
+        min: 9480,
+        max: 9489
+      }
+    ]
+  },
+  {
+    bank: 'Privatgirot',
+    ranges: [
+      {
+        min: 9860,
+        max: 9869
       }
     ]
   },
@@ -309,6 +462,15 @@ module.exports = [
       {
         min: 2950,
         max: 2950
+      }
+    ]
+  },
+  {
+    bank: 'SBAB Bank',
+    ranges: [
+      {
+        min: 9250,
+        max: 9259
       }
     ]
   },
@@ -379,20 +541,20 @@ module.exports = [
     ]
   },
   {
-    bank: 'Sparbanken Öresund',
+    bank: 'Sparbanken Syd',
     ranges: [
       {
-        min: 9300,
-        max: 9300
+        min: 9570,
+        max: 9579
       }
     ]
   },
   {
-    bank: 'Stadshypotek Bank',
+    bank: 'Sveriges riksbank',
     ranges: [
       {
-        min: 9200,
-        max: 9209
+        min: 1000,
+        max: 1099
       }
     ]
   },
@@ -410,6 +572,10 @@ module.exports = [
       {
         min: 7123,
         max: 8104
+      },
+      {
+        min: 9300,
+        max: 9349
       },
       {
         min: '8383-2',
@@ -447,10 +613,7 @@ module.exports = [
         min: '8059-8',
         max: '8059-8'
       },
-      {
-        min: '8060-6',
-        max: '8060-6'
-      },
+
       {
         min: '8077-0',
         max: '8077-0'
@@ -580,10 +743,6 @@ module.exports = [
         max: '8313-9'
       },
       {
-        min: '8314-7',
-        max: '8314-7'
-      },
-      {
         min: '8327-9',
         max: '8327-9'
       },
@@ -666,11 +825,137 @@ module.exports = [
     ]
   },
   {
+    bank: 'Sparbanken Gotland',
+    ranges: [
+      {
+        min: '8055-6',
+        max: '8055-6'
+      }
+    ]
+  },
+  {
+    bank: 'Falkenbergs sparbank',
+    ranges: [
+      {
+        min: '8060-6',
+        max: '8060-6'
+      }
+    ]
+  },
+  {
+    bank: 'Sölvesborg-Mjällby sparbank',
+    ranges: [
+      {
+        min: '8321-2',
+        max: '8321-2'
+      }
+    ]
+  },
+  {
+    bank: 'Markaryds sparbank',
+    ranges: [
+      {
+        min: '8217-2',
+        max: '8217-2'
+      }
+    ]
+  },
+  {
+    bank: 'Fryksdalens sparbank',
+    ranges: [
+      {
+        min: '8336-0',
+        max: '8336-0'
+      }
+    ]
+  },
+  {
+    bank: 'Häradssparbanken Mönsterås',
+    ranges: [
+      {
+        min: '8331-1',
+        max: '8331-1'
+      }
+    ]
+  },
+  {
+    bank: 'Närs sparbank',
+    ranges: [
+      {
+        min: '8250-3',
+        max: '8250-3'
+      }
+    ]
+  },
+  {
+    bank: 'Sparbanken Skaraborg',
+    ranges: [
+      {
+        min: '8289-1',
+        max: '8289-1'
+      }
+    ]
+  },
+  {
+    bank: 'Sparbanken Alingsås',
+    ranges: [
+      {
+        min: '8304-8',
+        max: '8304-8'
+      }
+    ]
+  },
+  {
+    bank: 'Sparbanken i Enköping',
+    ranges: [
+      {
+        min: '8313-9',
+        max: '8313-9'
+      }
+    ]
+  },
+  {
+    bank: 'Skurups sparbank',
+    ranges: [
+      {
+        min: '8295-8',
+        max: '8295-8'
+      }
+    ]
+  },
+  {
+    bank: 'Lekebergs sparbank',
+    ranges: [
+      {
+        min: '8164-6',
+        max: '8164-6'
+      }
+    ]
+  },
+  {
+    bank: 'Sparbanken Lidköping',
+    ranges: [
+      {
+        min: '8314-7',
+        max: '8314-7'
+      }
+    ]
+  },
+  {
+    bank: 'Kinda-Ydre sparbank',
+    ranges: [
+      {
+        min: '8158-8',
+        max: '8158-8'
+      }
+    ]
+  },
+  {
     bank: 'Ålandsbanken',
     ranges: [
       {
-        min: 2310,
-        max: 2310
+        min: 2300,
+        max: 2399
       }
     ]
   }

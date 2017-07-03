@@ -4,7 +4,7 @@
   "description": "Clearing numbers for Swedish banks",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,10 @@
     "Clearing",
     "Number",
     "Swedish",
-    "Banks"
+    "Banks",
+    "Bank",
+    "Clearingnummer",
+    "Svensk bank"
   ],
   "author": "Rickard Laurin <rickard.laurin@gmail.com> (http://rickardlaurin.se/)",
   "license": "MIT",
