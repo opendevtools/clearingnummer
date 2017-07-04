@@ -1,4 +1,12 @@
 {
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "rules": {
     "quotes": [2, "single"],
     "strict": [1, "never"],
