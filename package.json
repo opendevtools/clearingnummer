@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint index.js clearingNumbers.js ./test/**/*.js",
     "test": "./node_modules/.bin/mocha",
-    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+    "coverage": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     "babel-eslint": "^7.2.3",
     "chai": "^3.4.0",
     "eslint": "^1.10.3",
+    "istanbul": "^0.4.5",
     "mocha": "^2.3.3"
   }
 }
