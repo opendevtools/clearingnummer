@@ -4,7 +4,9 @@
   "description": "Clearing numbers for Swedish banks",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "lint": "eslint index.js clearingNumbers.js ./test/**/*.js",
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
   },
   "repository": {
     "type": "git",

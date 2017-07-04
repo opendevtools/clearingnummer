@@ -1,0 +1,15 @@
+branches :
+  only :
+    - master
+language : node_js
+node_js :
+  - 6
+install :
+  - npm install
+  - npm install codeclimate-test-reporter -g
+script :
+  - npm run lint
+  - npm test
+  - npm run coverage
+after_script :
+  - codeclimate-test-reporter < coverage/lcov.info
