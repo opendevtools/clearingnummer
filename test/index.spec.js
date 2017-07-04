@@ -500,6 +500,10 @@ describe('#allBanks', function() {
   })
 
   it('should return a list of banks', function() {
-    expect(allBanks().includes('SEB')).to.be.true
+    expect(
+      allBanks().filter(function(bank) {
+        return bank === 'SEB'
+      })
+    ).to.have.length(1)
   })
 })
