@@ -4,7 +4,7 @@ Sort codes, _clearingnummer_ in Swedish, are four or five digit identifiers for 
 
 ### Installation
 ```
-yarn install clearingnummer
+yarn add clearingnummer
 ```
 
 ### Services
