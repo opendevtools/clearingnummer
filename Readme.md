@@ -1,7 +1,7 @@
 ## Clearingnummer
 
 [![npm version](https://badge.fury.io/js/clearingnummer.svg)](https://badge.fury.io/js/clearingnummer)
-[![Build Status](https://travis-ci.org/believer/clearingnummer.png?branch=master)](https://travis-ci.org/believer/clearingnummer)
+[![Build Status](https://travis-ci.org/believer/clearingnummer.svg?branch=master)](https://travis-ci.org/believer/clearingnummer)
 [![Code Climate](https://codeclimate.com/github/believer/clearingnummer/badges/gpa.svg)](https://codeclimate.com/github/believer/clearingnummer)
 [![Test Coverage](https://codeclimate.com/github/believer/clearingnummer/badges/coverage.svg)](https://codeclimate.com/github/believer/clearingnummer/coverage)
 
