@@ -1,12 +1,13 @@
 {
   "name": "clearingnummer",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Clearing numbers for Swedish banks",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "eslint index.js clearingNumbers.js ./test/**/*.js",
-    "test": "./node_modules/.bin/mocha",
-    "coverage": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+    "test": "jest",
+    "coverage": "npm test -- --coverage",
+    "release": "generate-release"
   },
   "repository": {
     "type": "git",
@@ -30,9 +31,7 @@
   "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^7.2.3",
-    "chai": "^3.4.0",
     "eslint": "^1.10.3",
-    "istanbul": "^0.4.5",
-    "mocha": "^2.3.3"
+    "jest": "^20.0.4"
   }
 }
