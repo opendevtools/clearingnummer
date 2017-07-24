@@ -4,7 +4,7 @@
   "description": "Clearing numbers for Swedish banks",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint index.js clearingNumbers.js ./test/**/*.js",
+    "lint": "eslint ./lib/**/*.js ./test/**/*.js",
     "test": "jest",
     "coverage": "npm test -- --coverage",
     "release": "generate-release"
