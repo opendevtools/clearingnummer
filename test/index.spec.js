@@ -110,7 +110,7 @@ describe('#bankName', () => {
   })
 
   it('should return correct name for 8079-6', () => {
-    expect(bankName('8079-6')).toEqual('Färs & Frosta Sparbank')
+    expect(bankName('8079-6')).toEqual('Swedbank')
   })
 
   it('should return correct name for 8105', () => {
@@ -142,7 +142,7 @@ describe('#bankName', () => {
   })
 
   it('should return correct name for 8313-9', () => {
-    expect(bankName('8313-9')).toEqual('Sparbanken 1826')
+    expect(bankName('8313-9')).toEqual('Sparbanken Skåne')
   })
 
   it('should return correct name for 8383-2', () => {
@@ -267,9 +267,9 @@ describe('#bankName', () => {
   })
 
   it('should return correct name for range 9190-9199', () => {
-    expect(bankName(9190)).toEqual('Den Norske Bank')
-    expect(bankName(9195)).toEqual('Den Norske Bank')
-    expect(bankName(9199)).toEqual('Den Norske Bank')
+    expect(bankName(9190)).toEqual('DNB Bank')
+    expect(bankName(9195)).toEqual('DNB Bank')
+    expect(bankName(9199)).toEqual('DNB Bank')
   })
 
   it('should return correct name for range 9230-9239', () => {
@@ -283,7 +283,7 @@ describe('#bankName', () => {
   })
 
   it('should return correct name for range 9260-9269', () => {
-    expect(bankName(9268)).toEqual('Den Norske Bank')
+    expect(bankName(9268)).toEqual('DNB Bank')
   })
 
   it('should return correct name for range 9270-9279', () => {
