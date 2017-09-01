@@ -142,7 +142,7 @@ describe('#bankName', () => {
   })
 
   it('should return correct name for 8313-9', () => {
-    expect(bankName('8313-9')).toEqual('Sparbanken 1826')
+    expect(bankName('8313-9')).toEqual('Sparbanken Skåne')
   })
 
   it('should return correct name for 8383-2', () => {
