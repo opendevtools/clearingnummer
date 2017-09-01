@@ -267,9 +267,9 @@ describe('#bankName', () => {
   })
 
   it('should return correct name for range 9190-9199', () => {
-    expect(bankName(9190)).toEqual('Den Norske Bank')
-    expect(bankName(9195)).toEqual('Den Norske Bank')
-    expect(bankName(9199)).toEqual('Den Norske Bank')
+    expect(bankName(9190)).toEqual('DNB Bank')
+    expect(bankName(9195)).toEqual('DNB Bank')
+    expect(bankName(9199)).toEqual('DNB Bank')
   })
 
   it('should return correct name for range 9230-9239', () => {
@@ -283,7 +283,7 @@ describe('#bankName', () => {
   })
 
   it('should return correct name for range 9260-9269', () => {
-    expect(bankName(9268)).toEqual('Den Norske Bank')
+    expect(bankName(9268)).toEqual('DNB Bank')
   })
 
   it('should return correct name for range 9270-9279', () => {
