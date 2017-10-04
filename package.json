@@ -2,12 +2,13 @@
   "name": "clearingnummer",
   "version": "0.4.3",
   "description": "Clearing numbers for Swedish banks",
-  "main": "lib/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "lint": "eslint ./lib/**/*.js ./test/**/*.js",
     "test": "jest",
     "coverage": "npm test -- --coverage",
-    "release": "generate-release"
+    "build": "babel lib --out-dir dist",
+    "prepublish": "npm test && npm run lint && npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
     "Clearingnummer",
     "Svensk bank"
   ],
-  "author": "Rickard Laurin <rickard.laurin@gmail.com> (http://rickardlaurin.se/)",
+  "author":
+    "Rickard Laurin <rickard.laurin@gmail.com> (http://rickardlaurin.se/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/believer/clearingnummer/issues"
@@ -30,8 +32,11 @@
   "homepage": "https://github.com/believer/clearingnummer#readme",
   "dependencies": {},
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^1.10.3",
-    "jest": "^20.0.4"
+    "babel-cli": "6.26.0",
+    "babel-eslint": "7.2.3",
+    "babel-preset-env": "1.6.0",
+    "eslint": "1.10.3",
+    "jest": "20.0.4",
+    "jest-cli": "21.2.1"
   }
 }
