@@ -1,6 +1,6 @@
 {
   "name": "clearingnummer",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Clearing numbers for Swedish banks",
   "main": "./dist/index.js",
   "scripts": {
@@ -23,8 +23,7 @@
     "Clearingnummer",
     "Svensk bank"
   ],
-  "author":
-    "Rickard Laurin <rickard.laurin@gmail.com> (http://rickardlaurin.se/)",
+  "author": "Rickard Laurin <rickard.laurin@gmail.com> (http://rickardlaurin.se/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/believer/clearingnummer/issues"
