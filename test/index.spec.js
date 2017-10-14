@@ -1,6 +1,18 @@
 const { bankName, clearingNumbers, allBanks } = require('../lib/index')
 
 describe('#bankName', () => {
+  it('handles undefined', () => {
+    expect(() => bankName()).toThrowError('A string or number is required')
+  })
+
+  it('handles empty string', () => {
+    expect(() => bankName('')).toThrowError('A string or number is required')
+  })
+
+  it('handles 0', () => {
+    expect(bankName(0)).toEqual('')
+  })
+
   it('returns correct bank for range 1000-1099', () => {
     expect(bankName(1000)).toEqual('Sveriges riksbank')
     expect(bankName(1050)).toEqual('Sveriges riksbank')
@@ -453,6 +465,10 @@ describe('#bankName', () => {
 })
 
 describe('#clearingNumbers', () => {
+  it('handles undefined', () => {
+    expect(clearingNumbers()).toEqual([])
+  })
+
   it('should return clearing numbers of a provided bank name', () => {
     expect(clearingNumbers('SEB')).toEqual([
       {
