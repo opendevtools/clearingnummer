@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/believer/clearingnummer.svg?branch=master)](https://travis-ci.org/believer/clearingnummer)
 [![Code Climate](https://codeclimate.com/github/believer/clearingnummer/badges/gpa.svg)](https://codeclimate.com/github/believer/clearingnummer)
 [![Test Coverage](https://codeclimate.com/github/believer/clearingnummer/badges/coverage.svg)](https://codeclimate.com/github/believer/clearingnummer/coverage)
+[![Known Vulnerabilities](https://snyk.io/test/github/believer/clearingnummer/badge.svg)](https://snyk.io/test/github/believer/clearingnummer)
 
 Sort codes, _clearingnummer_ in Swedish, are four or five digit identifiers for Swedish banks. This package helps you find the bank related to a specific number. All clearing numbers are taken from [Wikipedia](http://www.wikiwand.com/sv/Lista_%C3%B6ver_clearingnummer_till_svenska_banker) and [Swedish Bankers Association](http://www.swedishbankers.se/media/3535/1710_clearingnummer-institut.pdf).
 
