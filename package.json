@@ -4,10 +4,11 @@
   "description": "Clearing numbers for Swedish banks",
   "main": "./dist/index.js",
   "scripts": {
-    "lint": "eslint ./lib/**/*.js ./test/**/*.js",
+    "start": "tsc -w",
+    "lint": "tslint ./lib/**/*.js ./test/**/*.js",
     "test": "jest",
-    "coverage": "npm test -- --coverage",
-    "build": "babel lib --out-dir dist",
+    "coverage": "jest --coverage",
+    "build": "tsc",
     "prepublish": "npm test && npm run lint && npm run build"
   },
   "repository": {
@@ -31,11 +32,30 @@
   "homepage": "https://github.com/believer/clearingnummer#readme",
   "dependencies": {},
   "devDependencies": {
-    "babel-cli": "6.26.0",
+    "@types/jest": "22.1.1",
     "babel-eslint": "7.2.3",
     "babel-preset-env": "1.6.0",
     "eslint": "1.10.3",
     "jest": "20.0.4",
-    "jest-cli": "21.2.1"
+    "ts-jest": "^22.0.3",
+    "tslint": "5.9.1",
+    "typescript": "2.7.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "ts-jest"
+    },
+    "testMatch": [
+      "**/__tests__/*.ts"
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.test.json"
+      }
+    }
   }
 }
