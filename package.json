@@ -1,6 +1,6 @@
 {
   "name": "clearingnummer",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Clearing numbers for Swedish banks",
   "main": "./dist/index.js",
   "scripts": {
