@@ -1,0 +1,16 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest"],
+  "jsRules": {},
+  "rules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "no-any": true,
+    "no-trailing-whitespace": true,
+    "only-arrow-functions": false,
+    "quotemark": [true, "single"],
+    "semicolon": [true, "never"],
+    "space-before-function-paren": [true, "always"],
+    "trailing-comma": [true, { "multiline": "always" }]
+  },
+  "rulesDirectory": []
+}

@@ -13,7 +13,7 @@
     "semi": [2, "never"],
     "prefer-const": 2,
     "no-unexpected-multiline": 2,
-    "comma-dangle": [2, "never"],
+    "comma-dangle": [2, "always-multiline"],
     "object-curly-spacing": [2, "always"],
     "comma-spacing": 2,
     "no-unused-vars": 2,

@@ -1,6 +1,6 @@
-const { bankName, clearingNumbers, allBanks } = require('../lib/index')
+import { allBanks, bankName, clearingNumbers } from '../index'
 
-const testBankNameRange = (start, end, expected) => {
+const testBankNameRange = (start: number, end: number, expected: string) => {
   return [...Array(1 + end - start).keys()]
     .map(v => start + v)
     .forEach(value => {
@@ -427,17 +427,17 @@ describe('#clearingNumbers', () => {
   it('should return clearing numbers of a provided bank name', () => {
     expect(clearingNumbers('SEB')).toEqual([
       {
+        max: 5999,
         min: 5000,
-        max: 5999
       },
       {
+        max: 9124,
         min: 9120,
-        max: 9124
       },
       {
+        max: 9149,
         min: 9130,
-        max: 9149
-      }
+      },
     ])
   })
 
