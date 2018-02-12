@@ -1,1 +1,10 @@
 lib
+coverage
+
+.babelrc
+.codeclimate.yml
+.eslintrc
+.travis.yml
+tsconfig.json
+tsconfig.test.json
+tslint.json
