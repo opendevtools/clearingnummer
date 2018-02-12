@@ -9,7 +9,7 @@
     "test": "jest",
     "coverage": "jest --coverage",
     "build": "tsc",
-    "prepublish": "npm test && npm run lint && npm run build"
+    "prepare": "npm test && npm run lint && npm run build"
   },
   "repository": {
     "type": "git",
