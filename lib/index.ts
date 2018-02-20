@@ -1,24 +1,24 @@
 import banks from './clearingNumbers'
 
-export function bankName(number?: string | number): string {
+export function bankName(clNumber?: string | number): string {
   if (
-    number === undefined ||
-    (typeof number === 'string' && number.length === 0)
+    clNumber === undefined ||
+    (typeof clNumber === 'string' && clNumber.length === 0)
   ) {
     throw new Error('A string or number is required')
   }
 
-  const numberString = number.toString()
+  const numberString = clNumber.toString()
 
   const found = banks.find(({ ranges }) => {
     return !!ranges.find(({ min, max }) => {
-      var minString = min.toString()
-      var maxString = max.toString()
+      const minString = min.toString()
+      const maxString = max.toString()
 
       return (
         minString === numberString ||
         maxString === numberString ||
-        (number > min && number < max)
+        (clNumber > min && clNumber < max)
       )
     })
   })
@@ -26,10 +26,10 @@ export function bankName(number?: string | number): string {
   return found ? found.bank : ''
 }
 
-export function clearingNumbers(bankName?: string) {
-  const bank = banks.find(({ bank }) => bank === bankName)
+export function clearingNumbers(name?: string) {
+  const foundBank = banks.find(({ bank }) => bank === name)
 
-  return bank ? bank.ranges : []
+  return foundBank ? foundBank.ranges : []
 }
 
 export function allBanks() {
@@ -39,5 +39,5 @@ export function allBanks() {
 export default {
   allBanks,
   bankName,
-  clearingNumbers
+  clearingNumbers,
 }

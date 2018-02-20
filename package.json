@@ -3,12 +3,13 @@
   "version": "0.6.1",
   "description": "Clearing numbers for Swedish banks",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "start": "tsc -w",
     "lint": "tslint ./lib/**/*.js ./test/**/*.js",
     "test": "jest",
     "coverage": "jest --coverage",
-    "build": "tsc",
+    "build": "tsc --declaration",
     "prepare": "npm test && npm run lint && npm run build"
   },
   "repository": {
@@ -24,7 +25,8 @@
     "Clearingnummer",
     "Svensk bank"
   ],
-  "author": "Rickard Laurin <rickard.laurin@gmail.com> (http://rickardlaurin.se/)",
+  "author":
+    "Rickard Laurin <rickard.laurin@gmail.com> (http://rickardlaurin.se/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/believer/clearingnummer/issues"
@@ -42,16 +44,11 @@
     "typescript": "2.7.1"
   },
   "jest": {
-    "moduleFileExtensions": [
-      "ts",
-      "js"
-    ],
+    "moduleFileExtensions": ["ts", "js"],
     "transform": {
       "\\.(ts|tsx)$": "ts-jest"
     },
-    "testMatch": [
-      "**/__tests__/*.ts"
-    ],
+    "testMatch": ["**/__tests__/*.ts"],
     "globals": {
       "ts-jest": {
         "tsConfigFile": "tsconfig.test.json"
