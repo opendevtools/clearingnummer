@@ -2,8 +2,12 @@
   "extends": [
     "config:base"
   ],
-  "automerge": true,
-  "major": {
-    "automerge": false
-  }
+  "pinVersions": true,
+  "semanticCommits": true,
+  "schedule": ["after 10pm and before 5am on every weekday"],
+  "prCreation": "not-pending",
+  "automerge": "minor",
+  "labels": ["tooling", "dependencies"],
+  "assignees": ["@believer"],
+  "reviewers": ["@believer"]
 }
