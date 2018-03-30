@@ -46,7 +46,7 @@
   "devDependencies": {
     "@types/jest": "22.2.2",
     "all-contributors-cli": "4.11.1",
-    "babel-eslint": "7.2.3",
+    "babel-eslint": "8.2.2",
     "babel-preset-env": "1.6.1",
     "eslint": "1.10.3",
     "husky": "0.14.3",
