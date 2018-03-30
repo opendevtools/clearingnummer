@@ -1,0 +1,25 @@
+{
+  "projectName": "clearingnummer",
+  "projectOwner": "believer",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "believer",
+      "name": "Rickard Laurin",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1478102?v=4",
+      "profile": "http://willcodefor.beer/",
+      "contributions": [
+        "bug",
+        "code",
+        "doc",
+        "review"
+      ]
+    }
+  ]
+}
