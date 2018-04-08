@@ -20,6 +20,15 @@
         "doc",
         "review"
       ]
+    },
+    {
+      "login": "fohlin",
+      "name": "Fredrik Ohlin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/80429?v=4",
+      "profile": "https://fredrikohlin.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }

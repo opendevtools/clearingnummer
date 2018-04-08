@@ -77,8 +77,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/1478102?v=4" width="100px;"/><br /><sub><b>Rickard Laurin</b></sub>](http://willcodefor.beer/)<br />[🐛](https://github.com/believer/clearingnummer/issues?q=author%3Abeliever "Bug reports") [💻](https://github.com/believer/clearingnummer/commits?author=believer "Code") [📖](https://github.com/believer/clearingnummer/commits?author=believer "Documentation") [👀](#review-believer "Reviewed Pull Requests") |
-| :---: |
+| [<img src="https://avatars1.githubusercontent.com/u/1478102?v=4" width="100px;"/><br /><sub><b>Rickard Laurin</b></sub>](http://willcodefor.beer/)<br />[🐛](https://github.com/believer/clearingnummer/issues?q=author%3Abeliever "Bug reports") [💻](https://github.com/believer/clearingnummer/commits?author=believer "Code") [📖](https://github.com/believer/clearingnummer/commits?author=believer "Documentation") [👀](#review-believer "Reviewed Pull Requests") | [<img src="https://avatars3.githubusercontent.com/u/80429?v=4" width="100px;"/><br /><sub><b>Fredrik Ohlin</b></sub>](https://fredrikohlin.com/)<br />[💻](https://github.com/believer/clearingnummer/commits?author=fohlin "Code") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
