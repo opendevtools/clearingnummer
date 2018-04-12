@@ -14,7 +14,9 @@
     "precommit": "lint-staged",
     "commitmsg": "validate-commit-msg",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "lint-staged": {
     "*.ts": [
@@ -25,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/believer/clearingnummer.git"
+    "url": "https://github.com/believer/clearingnummer.git"
   },
   "keywords": [
     "Clearing",
@@ -56,7 +58,9 @@
     "ts-jest": "22.4.2",
     "tslint": "5.9.1",
     "typescript": "2.8.1",
-    "validate-commit-msg": "2.14.0"
+    "validate-commit-msg": "2.14.0",
+    "travis-deploy-once": "4.4.1",
+    "semantic-release": "15.1.6"
   },
   "jest": {
     "moduleFileExtensions": [
