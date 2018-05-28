@@ -837,6 +837,15 @@ export default [
     ],
   },
   {
+    bank: 'Varbergs sparbank',
+    ranges: [
+      {
+        max: '8388-1',
+        min: '8388-1',
+      },
+    ],
+  },
+  {
     bank: 'VP Securities A/S',
     ranges: [
       {

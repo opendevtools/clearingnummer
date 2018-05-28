@@ -386,6 +386,10 @@ describe('#bankName', () => {
     it('Sölvesborg-Mjällby sparbank', () => {
       expect(bankName('8321-2')).toEqual('Sölvesborg-Mjällby sparbank')
     })
+
+    it('Varbergs sparbank', () => {
+      expect(bankName('8388-1')).toEqual('Varbergs sparbank')
+    })
   })
 
   describe('Teller Branch Norway', () => {
