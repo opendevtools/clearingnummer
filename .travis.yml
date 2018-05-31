@@ -7,7 +7,7 @@ node_js:
   - '8'
   - '6'
 install :
-  - npm install ---silent
+  - npm ci
   - npm install codeclimate-test-reporter -g --silent
 script :
   - npm run lint
