@@ -345,6 +345,7 @@ describe('#bankName', () => {
       expect(bankName('8383-2')).toEqual('Swedbank')
       expect(bankName('8393-1')).toEqual('Swedbank')
       expect(bankName('8431-9')).toEqual('Swedbank')
+      expect(bankName('8424-4')).toEqual('Swedbank')
     })
 
     it('Sparbanken Gotland', () => {
