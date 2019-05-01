@@ -15,7 +15,7 @@ jobs:
         - npm run coverage
       after_script:
         - npx codeclimate-test-reporter < coverage/lcov.info
-    - state: release
+    - stage: release
       language: node_js
       node_js:
         - 10
