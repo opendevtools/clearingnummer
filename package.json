@@ -48,7 +48,7 @@
   "devDependencies": {
     "@commitlint/cli": "8.1.0",
     "@commitlint/config-conventional": "8.1.0",
-    "@types/jest": "24.0.15",
+    "@types/jest": "24.0.16",
     "all-contributors-cli": "6.8.1",
     "babel-eslint": "10.0.2",
     "babel-preset-env": "1.7.0",
