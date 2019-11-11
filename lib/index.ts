@@ -1,5 +1,7 @@
 import banks from './clearingNumbers'
 
+type Range = { max: number; min: number } | { max: string; min: string }
+
 export function bankName(clNumber?: string | number): string {
   if (
     clNumber === undefined ||
@@ -26,13 +28,13 @@ export function bankName(clNumber?: string | number): string {
   return found ? found.bank : ''
 }
 
-export function clearingNumbers(name?: string) {
+export function clearingNumbers(name?: string): Range[] {
   const foundBank = banks.find(({ bank }) => bank === name)
 
   return foundBank ? foundBank.ranges : []
 }
 
-export function allBanks() {
+export function allBanks(): string[] {
   return banks.map(bank => bank.bank)
 }
 
