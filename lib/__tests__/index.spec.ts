@@ -1,7 +1,12 @@
 import { allBanks, bankName, clearingNumbers } from '../index'
 
-const testBankNameRange = (start: number, end: number, expected: string) => {
-  return [...Array(1 + end - start).keys()]
+const testBankNameRange = (
+  start: number,
+  end: number,
+  expected: string
+): void => {
+  return new Array(1 + end - start)
+    .fill(0)
     .map(v => start + v)
     .forEach(value => {
       expect(bankName(value)).toEqual(expected)

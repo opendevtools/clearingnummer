@@ -6,15 +6,15 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "start": "tsc -w",
-    "lint": "tslint ./lib/**/*.js ./test/**/*.js",
-    "test": "jest",
-    "coverage": "jest --coverage",
+    "lint": "eslint 'lib/**/*.{ts,tsx}'",
+    "test": "is-ci \"test:ci\" \"test:watch\"",
+    "test:ci": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "build": "tsc --declaration",
     "prepare": "npm test && npm run lint && npm run build",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate",
-    "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "contributors:generate": "all-contributors generate"
   },
   "lint-staged": {
     "*.ts": [
@@ -46,19 +46,23 @@
     "merge": "1.2.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "8.2.0",
-    "@commitlint/config-conventional": "8.2.0",
+    "@semantic-release/changelog": "3.0.5",
+    "@semantic-release/git": "7.0.18",
     "@types/jest": "24.0.22",
+    "@typescript-eslint/eslint-plugin": "2.6.1",
+    "@typescript-eslint/parser": "2.6.1",
     "all-contributors-cli": "6.10.0",
     "babel-eslint": "10.0.3",
     "babel-preset-env": "1.7.0",
     "eslint": "6.6.0",
+    "eslint-config-prettier": "6.5.0",
+    "eslint-plugin-prettier": "3.1.1",
     "husky": "3.0.9",
+    "is-ci-cli": "2.0.0",
     "jest": "24.9.0",
     "lint-staged": "9.4.2",
     "prettier": "1.18.2",
     "semantic-release": "15.13.30",
-    "travis-deploy-once": "5.0.11",
     "ts-jest": "24.1.0",
     "tslint": "5.20.1",
     "typescript": "3.7.2"
@@ -76,7 +80,7 @@
     ],
     "globals": {
       "ts-jest": {
-        "tsConfigFile": "tsconfig.test.json"
+        "diagnostics": false
       }
     }
   }
