@@ -46,7 +46,7 @@
     "merge": "1.2.1"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "3.0.5",
+    "@semantic-release/changelog": "3.0.6",
     "@semantic-release/git": "7.0.18",
     "@types/jest": "24.0.23",
     "@typescript-eslint/eslint-plugin": "2.8.0",
