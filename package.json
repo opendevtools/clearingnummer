@@ -19,8 +19,7 @@
   "lint-staged": {
     "*.ts": [
       "prettier --write",
-      "tslint --fix",
-      "git add"
+      "tslint --fix"
     ]
   },
   "repository": {
@@ -60,7 +59,7 @@
     "husky": "4.0.10",
     "is-ci-cli": "2.0.0",
     "jest": "24.9.0",
-    "lint-staged": "9.5.0",
+    "lint-staged": "10.0.1",
     "prettier": "1.19.1",
     "semantic-release": "16.0.2",
     "ts-jest": "24.3.0",
