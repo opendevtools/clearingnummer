@@ -19,8 +19,7 @@
   "lint-staged": {
     "*.ts": [
       "prettier --write",
-      "tslint --fix",
-      "git add"
+      "tslint --fix"
     ]
   },
   "repository": {
