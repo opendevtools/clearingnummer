@@ -45,8 +45,8 @@
     "merge": "1.2.1"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "3.0.6",
-    "@semantic-release/git": "8.0.0",
+    "@semantic-release/changelog": "5.0.0",
+    "@semantic-release/git": "9.0.0",
     "@types/jest": "25.1.0",
     "@typescript-eslint/eslint-plugin": "2.18.0",
     "@typescript-eslint/parser": "2.18.0",
@@ -61,7 +61,7 @@
     "jest": "25.1.0",
     "lint-staged": "10.0.3",
     "prettier": "1.19.1",
-    "semantic-release": "16.0.4",
+    "semantic-release": "17.0.1",
     "ts-jest": "25.0.0",
     "typescript": "3.7.5"
   },
