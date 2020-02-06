@@ -18,11 +18,17 @@ jobs:
       run: |
         npm install
         npm run lint --if-present
-        npm run test:coverage
-        npx codeclimate-test-reporter < coverage/lcov.info
+        npm test
       env:
-        CODECLIMATE_REPO_TOKEN: ${{ secrets.CODECLIMATE_REPO_TOKEN }}
         CI: true
+
+    - name: Send coverage to Code Climate
+      uses: paambaati/codeclimate-action@v2.4.0
+      env:
+        CI: true
+        CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_REPO_TOKEN }}
+      with:
+        coverageCommand: npm run test:coverage
 
     - name: Create release using semantic-release
       run: npx semantic-release
