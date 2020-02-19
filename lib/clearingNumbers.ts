@@ -18,7 +18,7 @@ export default [
     ],
   },
   {
-    bank: 'Amfa Bank',
+    bank: 'Svea Bank',
     ranges: [
       {
         max: 9669,
@@ -138,7 +138,16 @@ export default [
     ],
   },
   {
-    bank: 'GE Money Bank',
+    bank: 'FTCS',
+    ranges: [
+      {
+        max: 9770,
+        min: 9779,
+      },
+    ],
+  },
+  {
+    bank: 'Santander Consumer Bank',
     ranges: [
       {
         max: 9469,
@@ -179,6 +188,15 @@ export default [
       {
         max: 9679,
         min: 9670,
+      },
+    ],
+  },
+  {
+    bank: 'Klarna Bank',
+    ranges: [
+      {
+        max: 9780,
+        min: 9789,
       },
     ],
   },

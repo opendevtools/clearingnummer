@@ -30,12 +30,6 @@ describe('#bankName', () => {
     expect(bankName(52)).toEqual('')
   })
 
-  describe('Amfa Bank', () => {
-    it('9660-9669', () => {
-      testBankNameRange(9660, 9669, 'Amfa Bank')
-    })
-  })
-
   describe('Avanza Bank', () => {
     it('9550-9569', () => {
       testBankNameRange(9550, 9569, 'Avanza Bank')
@@ -132,9 +126,9 @@ describe('#bankName', () => {
     })
   })
 
-  describe('GE Money Bank', () => {
-    it('9460-9469', () => {
-      testBankNameRange(9460, 9469, 'GE Money Bank')
+  describe('FTCS', () => {
+    it('9770-9779', () => {
+      testBankNameRange(9770, 9779, 'FTCS')
     })
   })
 
@@ -159,6 +153,12 @@ describe('#bankName', () => {
   describe('JAK Medlemsbank', () => {
     it('9670-9679', () => {
       testBankNameRange(9670, 9679, 'JAK Medlemsbank')
+    })
+  })
+
+  describe('Klarna Bank', () => {
+    it('9780-9789', () => {
+      testBankNameRange(9780, 9789, 'Klarna Bank')
     })
   })
 
@@ -312,6 +312,12 @@ describe('#bankName', () => {
     })
   })
 
+  describe('Santander Consumer Bank', () => {
+    it('9460-9469', () => {
+      testBankNameRange(9460, 9469, 'Santander Consumer Bank')
+    })
+  })
+
   describe('Skandiabanken', () => {
     it('9150-9169', () => {
       testBankNameRange(9150, 9169, 'Skandiabanken')
@@ -321,6 +327,12 @@ describe('#bankName', () => {
   describe('Sparbanken Syd', () => {
     it('9570-9579', () => {
       testBankNameRange(9570, 9579, 'Sparbanken Syd')
+    })
+  })
+
+  describe('Svea Bank', () => {
+    it('9660-9669', () => {
+      testBankNameRange(9660, 9669, 'Svea Bank')
     })
   })
 
