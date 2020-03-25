@@ -7,8 +7,8 @@ const testBankNameRange = (
 ): void => {
   return new Array(1 + end - start)
     .fill(0)
-    .map(v => start + v)
-    .forEach(value => {
+    .map((v) => start + v)
+    .forEach((value) => {
       expect(bankName(value)).toEqual(expected)
     })
 }
@@ -474,6 +474,6 @@ describe('#allBanks', () => {
   })
 
   it('should return a list of banks', () => {
-    expect(allBanks().filter(bank => bank === 'SEB')).toHaveLength(1)
+    expect(allBanks().filter((bank) => bank === 'SEB')).toHaveLength(1)
   })
 })

@@ -35,7 +35,7 @@ export function clearingNumbers(name?: string): Range[] {
 }
 
 export function allBanks(): string[] {
-  return banks.map(bank => bank.bank)
+  return banks.map((bank) => bank.bank)
 }
 
 export default {
