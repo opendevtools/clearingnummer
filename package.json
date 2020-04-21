@@ -61,7 +61,7 @@
     "jest": "25.4.0",
     "lint-staged": "10.1.7",
     "prettier": "2.0.4",
-    "semantic-release": "17.0.6",
+    "semantic-release": "17.0.7",
     "ts-jest": "25.4.0",
     "typescript": "3.8.3"
   },
