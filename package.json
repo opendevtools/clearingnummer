@@ -59,7 +59,7 @@
     "husky": "4.2.5",
     "is-ci-cli": "2.0.0",
     "jest": "26.0.1",
-    "lint-staged": "10.2.2",
+    "lint-staged": "10.2.4",
     "prettier": "2.0.5",
     "semantic-release": "17.0.7",
     "ts-jest": "26.0.0",
