@@ -1,0 +1,40 @@
+name: Release
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest 
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+
+    - name: Run tests and linting
+      run: |
+        npm install
+        npm run lint --if-present
+        npm test
+      env:
+        CI: true
+
+    - name: Send coverage to Code Climate
+      uses: paambaati/codeclimate-action@v2.4.0
+      env:
+        CI: true
+        CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_REPO_TOKEN }}
+      with:
+        coverageCommand: npm run test:coverage
+
+    - name: Create release using semantic-release
+      run: npx semantic-release
+      env:
+        # GITHUB_TOKEN is added automatically by GitHub
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        CI: true
+

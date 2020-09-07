@@ -4,4 +4,4 @@ exclude_patterns:
 plugins: 
   eslint:
     enabled: true
-    channel: "eslint-4"
+    channel: "eslint-6"
