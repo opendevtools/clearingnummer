@@ -408,6 +408,10 @@ describe('#bankName', () => {
     it('Varbergs sparbank', () => {
       expect(bankName('8388-1')).toEqual('Varbergs sparbank')
     })
+
+    it('Ulricehamns Sparbank', () => {
+      expect(bankName('8380-8')).toEqual('Ulricehamns Sparbank')
+    })
   })
 
   describe('Teller Branch Norway', () => {
