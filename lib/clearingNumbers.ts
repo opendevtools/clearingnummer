@@ -885,4 +885,13 @@ export default [
       },
     ],
   },
+  {
+    bank: 'Ulricehamns Sparbank',
+    ranges: [
+      {
+        max: '8380-8',
+        min: '8380-8',
+      },
+    ],
+  },
 ]
