@@ -1,42 +1,23 @@
-import banks from './clearingNumbers'
+import banks, { Range } from './clearingNumbers'
 
-type Range = { max: number; min: number } | { max: string; min: string }
+type Clearingnummer = string | number
 
-export function bankName(clNumber?: string | number): string {
-  if (
-    clNumber === undefined ||
-    (typeof clNumber === 'string' && clNumber.length === 0)
-  ) {
-    throw new Error('A string or number is required')
-  }
+const withinRange = (input: Clearingnummer, { max, min }: Range) =>
+  input > min && input < max
 
-  const numberString = clNumber.toString()
+const isBoundaryValue = (input: Clearingnummer, { max, min }: Range) =>
+  min.toString() === input?.toString() || max.toString() === input?.toString()
 
-  const found = banks.find(({ ranges }) => {
-    return !!ranges.find(({ min, max }) => {
-      const minString = min.toString()
-      const maxString = max.toString()
+const findBank = (input: Clearingnummer) => (range: Range) =>
+  isBoundaryValue(input, range) || withinRange(input, range)
 
-      return (
-        minString === numberString ||
-        maxString === numberString ||
-        (clNumber > min && clNumber < max)
-      )
-    })
-  })
+export const bankName = (input: Clearingnummer): string =>
+  banks.find(({ ranges }) => !!ranges.find(findBank(input)))?.bank ?? ''
 
-  return found ? found.bank : ''
-}
+export const clearingNumbers = (name: string): Range[] =>
+  banks.find(({ bank }) => bank === name)?.ranges ?? []
 
-export function clearingNumbers(name?: string): Range[] {
-  const foundBank = banks.find(({ bank }) => bank === name)
-
-  return foundBank ? foundBank.ranges : []
-}
-
-export function allBanks(): string[] {
-  return banks.map((bank) => bank.bank)
-}
+export const allBanks = (): string[] => banks.map((bank) => bank.bank)
 
 export default {
   allBanks,
