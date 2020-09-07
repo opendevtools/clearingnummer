@@ -1,3 +1,10 @@
+# [0.10.0](https://github.com/believer/clearingnummer/compare/v0.9.0...v0.10.0) (2020-09-07)
+
+
+### Features
+
+* Add 8380-8 Ulricehamns Sparbank ([#541](https://github.com/believer/clearingnummer/issues/541)) ([82ca0d7](https://github.com/believer/clearingnummer/commit/82ca0d792a55c7ac037e0cc21271b58f08e9dd9c))
+
 # [0.9.0](https://github.com/believer/clearingnummer/compare/v0.8.1...v0.9.0) (2020-02-19)
 
 
