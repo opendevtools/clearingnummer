@@ -2,6 +2,8 @@ import { allBanks, bankName, clearingNumbers } from '../index'
 
 describe('#bankName', () => {
   test.each([
+    [undefined, ''],
+    ['', ''],
     [0, ''],
     [52, ''],
   ])('handles %s', (input, expected) => {
