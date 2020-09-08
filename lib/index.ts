@@ -2,11 +2,14 @@ import banks, { Range } from './clearingNumbers'
 
 type Clearingnummer = string | number
 
+const isInput = (input: Clearingnummer, value: string | number) =>
+  value.toString() === input?.toString()
+
 const withinRange = (input: Clearingnummer, { max, min }: Range) =>
   input > min && input < max
 
 const isBoundaryValue = (input: Clearingnummer, { max, min }: Range) =>
-  min.toString() === input?.toString() || max.toString() === input?.toString()
+  isInput(input, min) || isInput(input, max)
 
 const findBank = (input: Clearingnummer) => (range: Range) =>
   isBoundaryValue(input, range) || withinRange(input, range)
