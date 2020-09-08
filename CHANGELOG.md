@@ -1,3 +1,19 @@
+# [1.0.0](https://github.com/believer/clearingnummer/compare/v0.10.0...v1.0.0) (2020-09-08)
+
+
+### Features
+
+* bump to v1 ([3fcaf72](https://github.com/believer/clearingnummer/commit/3fcaf72794af0357fc4870b4ee7fdc7c49aa39b8))
+
+
+### BREAKING CHANGES
+
+* Updated the typing signature of the available
+methods to be stricter.
+
+Also This library has been working fine for a long time.
+It's time to take it to an official v1.
+
 # [0.10.0](https://github.com/believer/clearingnummer/compare/v0.9.0...v0.10.0) (2020-09-07)
 
 
