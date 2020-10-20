@@ -23,7 +23,7 @@ jobs:
         CI: true
 
     - name: Send coverage to Code Climate
-      uses: paambaati/codeclimate-action@v2.4.0
+      uses: paambaati/codeclimate-action@v2.7.4
       env:
         CI: true
         CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_REPO_TOKEN }}
