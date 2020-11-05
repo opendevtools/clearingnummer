@@ -8,7 +8,7 @@ Sort codes, _clearingnummer_ in Swedish, are four or five digit identifiers for 
 ### Installation
 
 ```
-npm install --save @opendevtools/clearingnummer
+npm install @opendevtools/clearingnummer
 ```
 
 ### Services
