@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/opendevtools/clearingnummer/compare/v1.0.1...v1.1.0) (2020-11-05)
+
+
+### Features
+
+* publish as @opendevtools/clearingnummer ([25a45d2](https://github.com/opendevtools/clearingnummer/commit/25a45d29b9041e074458def9f2b3223480d007a4))
+
 ## [1.0.1](https://github.com/opendevtools/clearingnummer/compare/v1.0.0...v1.0.1) (2020-11-05)
 
 
