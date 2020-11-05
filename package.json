@@ -1,5 +1,5 @@
 {
-  "name": "clearingnummer",
+  "name": "@opendevtools/clearingnummer",
   "version": "1.0.0",
   "description": "Clearing numbers for Swedish banks",
   "main": "./dist/index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/believer/clearingnummer.git"
+    "url": "https://github.com/opendevtools/clearingnummer.git"
   },
   "keywords": [
     "Clearing",
@@ -38,9 +38,9 @@
   "author": "Rickard Natt och Dag <nattochdag@hey.com> (http://willcodefor.beer)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/believer/clearingnummer/issues"
+    "url": "https://github.com/opendevtools/clearingnummer/issues"
   },
-  "homepage": "https://github.com/believer/clearingnummer#readme",
+  "homepage": "https://github.com/opendevtools/clearingnummer#readme",
   "dependencies": {},
   "devDependencies": {
     "@babel/preset-env": "7.12.1",
