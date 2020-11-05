@@ -22,14 +22,6 @@ jobs:
       env:
         CI: true
 
-    - name: Send coverage to Code Climate
-      uses: paambaati/codeclimate-action@v2.7.4
-      env:
-        CI: true
-        CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_REPO_TOKEN }}
-      with:
-        coverageCommand: npm run test:coverage
-
     - name: Create release using semantic-release
       run: npx semantic-release
       env:
