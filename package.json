@@ -4,6 +4,9 @@
   "description": "Clearing numbers for Swedish banks",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "tsc -w",
     "lint": "eslint 'lib/**/*.{ts,tsx}'",
