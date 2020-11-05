@@ -1,16 +1,16 @@
 ## Clearingnummer
 
 [![npm version](https://badge.fury.io/js/clearingnummer.svg)](https://badge.fury.io/js/clearingnummer)
-[![](https://github.com/believer/clearingnummer/workflows/Release/badge.svg)](https://github.com/believer/clearingnummer/actions?workflow=Release)
-[![Code Climate](https://codeclimate.com/github/believer/clearingnummer/badges/gpa.svg)](https://codeclimate.com/github/believer/clearingnummer)
-[![Test Coverage](https://codeclimate.com/github/believer/clearingnummer/badges/coverage.svg)](https://codeclimate.com/github/believer/clearingnummer/coverage)
+[![](https://github.com/opendevtools/clearingnummer/workflows/Release/badge.svg)](https://github.com/opendevtools/clearingnummer/actions?workflow=Release)
+[![Code Climate](https://codeclimate.com/github/opendevtools/clearingnummer/badges/gpa.svg)](https://codeclimate.com/github/opendevtools/clearingnummer)
+[![Test Coverage](https://codeclimate.com/github/opendevtools/clearingnummer/badges/coverage.svg)](https://codeclimate.com/github/opendevtools/clearingnummer/coverage)
 
 Sort codes, _clearingnummer_ in Swedish, are four or five digit identifiers for Swedish banks. This package helps you find the bank related to a specific number. All clearing numbers are taken from [Wikipedia](http://www.wikiwand.com/sv/Lista_%C3%B6ver_clearingnummer_till_svenska_banker) and [Swedish Bankers Association](http://www.swedishbankers.se/media/3535/1710_clearingnummer-institut.pdf).
 
 ### Installation
 
 ```
-yarn add clearingnummer
+npm install --save @opendevtools/clearingnummer
 ```
 
 ### Services
@@ -26,7 +26,7 @@ Retrieve bank name for a given number
 ##### Example
 
 ```js
-import clearingnummer from 'clearingnummer'
+import clearingnummer from '@opendevtools/clearingnummer'
 
 clearingnummer.bankName(5202)
 // 'SEB'
@@ -43,7 +43,7 @@ Retrieve clearing numbers for a given bank name
 ##### Example
 
 ```js
-import clearingnummer from 'clearingnummer'
+import clearingnummer from '@opendevtools/clearingnummer'
 
 clearingnummer.clearingNumbers('Ålandsbanken')
 // [{
@@ -61,7 +61,7 @@ allBanks(): string[]
 Retrieve the names of all banks in the listing
 
 ```js
-import clearingnummer from 'clearingnummer'
+import clearingnummer from '@opendevtools/clearingnummer'
 
 clearingnummer.allBanks()
 // [
@@ -83,8 +83,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/1478102?v=4" width="100px;"/><br /><sub><b>Rickard Laurin</b></sub>](http://willcodefor.beer/)<br />[🐛](https://github.com/believer/clearingnummer/issues?q=author%3Abeliever "Bug reports") [💻](https://github.com/believer/clearingnummer/commits?author=believer "Code") [📖](https://github.com/believer/clearingnummer/commits?author=believer "Documentation") [👀](#review-believer "Reviewed Pull Requests") | [<img src="https://avatars3.githubusercontent.com/u/80429?v=4" width="100px;"/><br /><sub><b>Fredrik Ohlin</b></sub>](https://fredrikohlin.com/)<br />[💻](https://github.com/believer/clearingnummer/commits?author=fohlin "Code") | [<img src="https://avatars3.githubusercontent.com/u/1167428?v=4" width="100px;"/><br /><sub><b>Ivan Kustera</b></sub>](http://www.atomia.com)<br />[💻](https://github.com/believer/clearingnummer/commits?author=ivankustera "Code") |
+| [<img src="https://avatars1.githubusercontent.com/u/1478102?v=4" width="100px;"/><br /><sub><b>Rickard Laurin</b></sub>](http://willcodefor.beer/)<br />[🐛](https://github.com/opendevtools/clearingnummer/issues?q=author%3Abeliever "Bug reports") [💻](https://github.com/opendevtools/clearingnummer/commits?author=believer "Code") [📖](https://github.com/opendevtools/clearingnummer/commits?author=believer "Documentation") [👀](#review-believer "Reviewed Pull Requests") | [<img src="https://avatars3.githubusercontent.com/u/80429?v=4" width="100px;"/><br /><sub><b>Fredrik Ohlin</b></sub>](https://fredrikohlin.com/)<br />[💻](https://github.com/opendevtools/clearingnummer/commits?author=fohlin "Code") | [<img src="https://avatars3.githubusercontent.com/u/1167428?v=4" width="100px;"/><br /><sub><b>Ivan Kustera</b></sub>](http://www.atomia.com)<br />[💻](https://github.com/opendevtools/clearingnummer/commits?author=ivankustera "Code") |
 | :---: | :---: | :---: |
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
