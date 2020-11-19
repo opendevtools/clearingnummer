@@ -7,21 +7,15 @@ on:
 
 jobs:
   test:
-    name: Test on node ${{ matrix.node_version }} and ${{ matrix.os }}
+    name: Run tests
 
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        node-version: [10.x, 12.x]
-        os: [ubuntu-latest, macOS-latest]
+    runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Setup Node.js
       uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
 
     - name: Run tests and linting
       run: |
