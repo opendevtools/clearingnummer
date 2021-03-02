@@ -69,6 +69,6 @@
     "pinst": "^2.1.6",
     "prettier": "2.2.1",
     "semantic-release": "17.4.0",
-    "typescript": "4.0.5"
+    "typescript": "4.2.2"
   }
 }
