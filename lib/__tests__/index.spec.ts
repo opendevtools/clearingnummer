@@ -77,7 +77,7 @@ describe('#bankName', () => {
   ])('%s (%s-%s)', (bank, min, max) => {
     return new Array(1 + max - min)
       .fill(0)
-      .map((v) => min + v)
+      .map((_, i) => min + i)
       .forEach((value) => {
         expect(bankName(value)).toEqual(bank)
       })
