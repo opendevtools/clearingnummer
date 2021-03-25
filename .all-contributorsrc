@@ -1,6 +1,6 @@
 {
   "projectName": "clearingnummer",
-  "projectOwner": "believer",
+  "projectOwner": "opendevtools",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -38,6 +38,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ben-mckernan",
+      "name": "Ben McKernan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4847190?v=4",
+      "profile": "https://github.com/ben-mckernan",
+      "contributions": [
+        "code"
+      ]
     }
-  ]
+  ],
+  "skipCi": true,
+  "contributorsPerLine": 7
 }
