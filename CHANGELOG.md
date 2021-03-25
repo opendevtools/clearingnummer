@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/opendevtools/clearingnummer/compare/v1.1.0...v1.1.1) (2021-03-25)
+
+
+### Bug Fixes
+
+* ensure min is less than or equal to max ([#624](https://github.com/opendevtools/clearingnummer/issues/624)) ([369707b](https://github.com/opendevtools/clearingnummer/commit/369707b9f823c7dbbd381481644b2d99268b52dd))
+
 # [1.1.0](https://github.com/opendevtools/clearingnummer/compare/v1.0.1...v1.1.0) (2020-11-05)
 
 
