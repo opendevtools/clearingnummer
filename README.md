@@ -80,9 +80,19 @@ npm test
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| [<img src="https://avatars1.githubusercontent.com/u/1478102?v=4" width="100px;"/><br /><sub><b>Rickard Laurin</b></sub>](http://willcodefor.beer/)<br />[🐛](https://github.com/opendevtools/clearingnummer/issues?q=author%3Abeliever "Bug reports") [💻](https://github.com/opendevtools/clearingnummer/commits?author=believer "Code") [📖](https://github.com/opendevtools/clearingnummer/commits?author=believer "Documentation") [👀](#review-believer "Reviewed Pull Requests") | [<img src="https://avatars3.githubusercontent.com/u/80429?v=4" width="100px;"/><br /><sub><b>Fredrik Ohlin</b></sub>](https://fredrikohlin.com/)<br />[💻](https://github.com/opendevtools/clearingnummer/commits?author=fohlin "Code") | [<img src="https://avatars3.githubusercontent.com/u/1167428?v=4" width="100px;"/><br /><sub><b>Ivan Kustera</b></sub>](http://www.atomia.com)<br />[💻](https://github.com/opendevtools/clearingnummer/commits?author=ivankustera "Code") |
-| :---: | :---: | :---: |
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://willcodefor.beer/"><img src="https://avatars1.githubusercontent.com/u/1478102?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rickard Laurin</b></sub></a><br /><a href="https://github.com/opendevtools/clearingnummer/issues?q=author%3Abeliever" title="Bug reports">🐛</a> <a href="https://github.com/opendevtools/clearingnummer/commits?author=believer" title="Code">💻</a> <a href="https://github.com/opendevtools/clearingnummer/commits?author=believer" title="Documentation">📖</a> <a href="https://github.com/opendevtools/clearingnummer/pulls?q=is%3Apr+reviewed-by%3Abeliever" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://fredrikohlin.com/"><img src="https://avatars3.githubusercontent.com/u/80429?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fredrik Ohlin</b></sub></a><br /><a href="https://github.com/opendevtools/clearingnummer/commits?author=fohlin" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.atomia.com"><img src="https://avatars3.githubusercontent.com/u/1167428?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ivan Kustera</b></sub></a><br /><a href="https://github.com/opendevtools/clearingnummer/commits?author=ivankustera" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ben-mckernan"><img src="https://avatars.githubusercontent.com/u/4847190?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben McKernan</b></sub></a><br /><a href="https://github.com/opendevtools/clearingnummer/commits?author=ben-mckernan" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
