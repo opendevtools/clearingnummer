@@ -144,8 +144,8 @@ export default [
     bank: 'FTCS',
     ranges: [
       {
-        max: 9770,
-        min: 9779,
+        max: 9779,
+        min: 9770,
       },
     ],
   },
@@ -198,8 +198,8 @@ export default [
     bank: 'Klarna Bank',
     ranges: [
       {
-        max: 9780,
-        min: 9789,
+        max: 9789,
+        min: 9780,
       },
     ],
   },
