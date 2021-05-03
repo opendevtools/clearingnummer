@@ -41,7 +41,7 @@
     "Clearingnummer",
     "Svensk bank"
   ],
-  "author": "Rickard Natt och Dag <nattochdag@hey.com> (http://willcodefor.beer)",
+  "author": "Rickard Natt och Dag <rickard@nattochdag.dev> (https://willcodefor.beer)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/opendevtools/clearingnummer/issues"
@@ -51,8 +51,6 @@
   "devDependencies": {
     "@babel/preset-env": "7.13.15",
     "@babel/preset-typescript": "7.13.0",
-    "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.0",
     "@types/jest": "26.0.22",
     "@typescript-eslint/parser": "4.22.0",
     "@typescript-eslint/eslint-plugin": "4.22.0",
