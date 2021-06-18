@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/opendevtools/clearingnummer/compare/v1.1.1...v1.2.0) (2021-06-18)
+
+
+### Features
+
+* **bank:** add northmill bank ([#672](https://github.com/opendevtools/clearingnummer/issues/672)) ([f087571](https://github.com/opendevtools/clearingnummer/commit/f0875719c10897ff3e53e391c5353de90dc41d6e))
+
 ## [1.1.1](https://github.com/opendevtools/clearingnummer/compare/v1.1.0...v1.1.1) (2021-03-25)
 
 
