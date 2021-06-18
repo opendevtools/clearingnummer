@@ -901,8 +901,8 @@ export default [
     bank: 'Northmill Bank',
     ranges: [
       {
-        max: '9759',
-        min: '9750',
+        max: 9759,
+        min: 9750,
       },
     ],
   },
