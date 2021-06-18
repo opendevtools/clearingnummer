@@ -53,6 +53,7 @@ describe('#bankName', () => {
     ['Nordea', 9500, 9549],
     ['Nordea', 9960, 9969],
     ['Nordnet Bank', 9100, 9109],
+    ['Northmill Bank', 9750, 9750],
     ['Pareto Öhman', 9380, 9389],
     ['Privatgirot', 9860, 9869],
     ['RBS', 9090, 9099],
