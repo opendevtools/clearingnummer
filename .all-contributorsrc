@@ -56,6 +56,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "osm",
+      "name": "Oscar Linderholm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3326440?v=4",
+      "profile": "https://github.com/osm",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "skipCi": true,
