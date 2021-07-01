@@ -96,6 +96,7 @@ describe('#bankName', () => {
     ['8393-1', 'Swedbank'],
     ['8431-9', 'Swedbank'],
     ['8424-4', 'Swedbank'],
+    ['8384-0', 'Swedbank'],
     ['8055-6', 'Sparbanken Gotland'],
     ['8158-8', 'Kinda-Ydre sparbank'],
     ['8164-6', 'Lekebergs sparbank'],
