@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/opendevtools/clearingnummer/compare/v1.2.0...v1.3.0) (2021-07-01)
+
+
+### Features
+
+* support valdemarksviks sparbank ([#694](https://github.com/opendevtools/clearingnummer/issues/694)) ([935fb25](https://github.com/opendevtools/clearingnummer/commit/935fb2519332304a8bb99c58e8bfa845d46aaacc))
+
 # [1.2.0](https://github.com/opendevtools/clearingnummer/compare/v1.1.1...v1.2.0) (2021-06-18)
 
 
