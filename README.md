@@ -44,10 +44,12 @@ Retrieve clearing numbers for a given bank name
 import clearingnummer from '@opendevtools/clearingnummer'
 
 clearingnummer.clearingNumbers('Ålandsbanken')
-// [{
+/*
+[{
      "min": 2310,
      "max": 2310
-   }]
+}]
+*/
 ```
 
 #### allBanks
@@ -62,11 +64,13 @@ Retrieve the names of all banks in the listing
 import clearingnummer from '@opendevtools/clearingnummer'
 
 clearingnummer.allBanks()
-// [
+/*
+[
   'ABN AMRO',
   'Avanza Bank'
   ...
 ]
+*/
 ```
 
 ### Tests
