@@ -89,6 +89,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="http://www.atomia.com"><img src="https://avatars3.githubusercontent.com/u/1167428?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ivan Kustera</b></sub></a><br /><a href="https://github.com/opendevtools/clearingnummer/commits?author=ivankustera" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ben-mckernan"><img src="https://avatars.githubusercontent.com/u/4847190?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben McKernan</b></sub></a><br /><a href="https://github.com/opendevtools/clearingnummer/commits?author=ben-mckernan" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mp-horm"><img src="https://avatars.githubusercontent.com/u/85336596?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mp-horm</b></sub></a><br /><a href="https://github.com/opendevtools/clearingnummer/commits?author=mp-horm" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/osm"><img src="https://avatars.githubusercontent.com/u/3326440?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oscar Linderholm</b></sub></a><br /><a href="https://github.com/opendevtools/clearingnummer/commits?author=osm" title="Code">💻</a></td>
   </tr>
 </table>
 
