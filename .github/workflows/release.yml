@@ -23,9 +23,6 @@ jobs:
       - name: Download dependencies
         uses: bahmutov/npm-install@v1
 
-      - name: Run tests
-        run: npm test
-
   test:
     name: Tests
     runs-on: ubuntu-latest 
@@ -38,6 +35,9 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Download dependencies
+        uses: bahmutov/npm-install@v1
 
       - name: Run tests
         run: npm test
@@ -55,6 +55,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Download dependencies
+        uses: bahmutov/npm-install@v1
+
       - name: Run linting
         run: npm run lint
 
@@ -68,6 +71,9 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Download dependencies
+        uses: bahmutov/npm-install@v1
 
       - name: Type check
         run: npm run typecheck --if-present
