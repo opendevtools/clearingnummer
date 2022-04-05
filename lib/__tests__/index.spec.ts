@@ -1,3 +1,4 @@
+import { describe, expect, test } from 'vitest'
 import { allBanks, bankName, clearingNumbers } from '../index'
 
 describe('#bankName', () => {
@@ -115,11 +116,11 @@ describe('#bankName', () => {
 })
 
 describe('#clearingNumbers', () => {
-  it('handles undefined', () => {
+  test('handles undefined', () => {
     expect(clearingNumbers()).toEqual([])
   })
 
-  it('should return clearing numbers of a provided bank name', () => {
+  test('should return clearing numbers of a provided bank name', () => {
     expect(clearingNumbers('SEB')).toEqual([
       {
         max: 5999,
@@ -136,17 +137,17 @@ describe('#clearingNumbers', () => {
     ])
   })
 
-  it('returns an empty array if nothing is found', () => {
+  test('returns an empty array if nothing is found', () => {
     expect(clearingNumbers('NonExistantBank')).toEqual([])
   })
 })
 
 describe('#allBanks', () => {
-  it('should return a list', () => {
+  test('should return a list', () => {
     expect(allBanks().length > 0).toBe(true)
   })
 
-  it('should return a list of banks', () => {
+  test('should return a list of banks', () => {
     expect(allBanks().filter((bank) => bank === 'SEB')).toHaveLength(1)
   })
 })
