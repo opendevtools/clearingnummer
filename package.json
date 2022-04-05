@@ -13,7 +13,6 @@
     "test": "vitest",
     "build": "tsc --declaration",
     "typecheck": "tsc --noEmit",
-    "prepare": "npm run build",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
