@@ -36,6 +36,9 @@ jobs:
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Checkout code
+        uses: actions/checkout@v3
+
       - name: Run tests
         run: npm test
 
@@ -48,6 +51,9 @@ jobs:
         uses: styfle/cancel-workflow-action@0.9.1
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Run linting
         run: npm run lint
@@ -62,9 +68,6 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v3
-
-      - name: Download deps
-        uses: bahmutov/npm-install@v1
 
       - name: Type check
         run: npm run typecheck --if-present
