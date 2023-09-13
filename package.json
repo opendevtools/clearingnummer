@@ -1,45 +1,12 @@
 {
   "name": "@opendevtools/clearingnummer",
   "version": "1.4.0",
-  "description": "Clearing numbers for Swedish banks",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "start": "tsc -w",
-    "lint": "eslint 'lib/**/*.{ts,tsx}'",
-    "test": "bun test",
-    "prebuild:js": "rimraf dist",
-    "build:js": "bun build lib/index.ts --minify --outdir ./dist",
-    "postbuild:js": "tsc --emitDeclarationOnly --declaration --outDir ./dist  --noEmit false",
-    "typecheck": "tsc --noEmit",
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
-  },
+  "author": "Rickard Natt och Dag <rickard@nattochdag.dev> (https://willcodefor.beer)",
   "repository": {
     "type": "git",
     "url": "https://github.com/opendevtools/clearingnummer.git"
   },
-  "keywords": [
-    "Clearing",
-    "Number",
-    "Swedish",
-    "Banks",
-    "Bank",
-    "Clearingnummer",
-    "Svensk bank"
-  ],
-  "author": "Rickard Natt och Dag <rickard@nattochdag.dev> (https://willcodefor.beer)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/opendevtools/clearingnummer/issues"
-  },
-  "homepage": "https://github.com/opendevtools/clearingnummer#readme",
+  "main": "./dist/index.js",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "6.7.0",
     "@typescript-eslint/parser": "6.7.0",
@@ -51,5 +18,38 @@
     "prettier": "3.0.3",
     "rimraf": "^5.0.1",
     "typescript": "5.2.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/opendevtools/clearingnummer/issues"
+  },
+  "description": "Clearing numbers for Swedish banks",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/opendevtools/clearingnummer#readme",
+  "keywords": [
+    "Clearing",
+    "Number",
+    "Swedish",
+    "Banks",
+    "Bank",
+    "Clearingnummer",
+    "Svensk bank"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "tsc -w",
+    "lint": "eslint 'lib/**/*.{ts,tsx}'",
+    "test": "bun test",
+    "prebuild:js": "rimraf dist",
+    "build:js": "bun build lib/index.ts --minify --outdir ./dist",
+    "postbuild:js": "tsc --emitDeclarationOnly --declaration --outDir ./dist  --noEmit false",
+    "typecheck": "tsc --noEmit",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  },
+  "types": "./dist/index.d.ts"
 }
