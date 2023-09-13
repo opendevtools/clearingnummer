@@ -7,6 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "tsc -w",
     "lint": "eslint 'lib/**/*.{ts,tsx}'",
