@@ -2,7 +2,7 @@ name: Run tests on PR
 
 on:
   pull_request:
-    branches: 
+    branches:
       - main
 
 jobs:
@@ -10,24 +10,16 @@ jobs:
     name: Run linting
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      - run: bun lint
 
-    - name: Download dependencies
-      uses: bahmutov/npm-install@v1
-
-    - name: Run tests and linting
-      run: npm run lint --if-present
-          
   test:
     name: Run tests
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
-    - name: Download dependencies
-      uses: bahmutov/npm-install@v1
-
-    - name: Run tests and linting
-      run: npm test
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      - run: bun test

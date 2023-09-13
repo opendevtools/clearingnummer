@@ -3,9 +3,7 @@
   "projectOwner": "opendevtools",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": [
-    "README.md"
-  ],
+  "files": ["README.md"],
   "imageSize": 100,
   "commit": false,
   "contributors": [
@@ -14,57 +12,42 @@
       "name": "Rickard Laurin",
       "avatar_url": "https://avatars1.githubusercontent.com/u/1478102?v=4",
       "profile": "http://willcodefor.beer/",
-      "contributions": [
-        "bug",
-        "code",
-        "doc",
-        "review"
-      ]
+      "contributions": ["bug", "code", "doc", "review"]
     },
     {
       "login": "fohlin",
       "name": "Fredrik Ohlin",
       "avatar_url": "https://avatars3.githubusercontent.com/u/80429?v=4",
       "profile": "https://fredrikohlin.com/",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "ivankustera",
       "name": "Ivan Kustera",
       "avatar_url": "https://avatars3.githubusercontent.com/u/1167428?v=4",
       "profile": "http://www.atomia.com",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "ben-mckernan",
       "name": "Ben McKernan",
       "avatar_url": "https://avatars.githubusercontent.com/u/4847190?v=4",
       "profile": "https://github.com/ben-mckernan",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "mp-horm",
       "name": "mp-horm",
       "avatar_url": "https://avatars.githubusercontent.com/u/85336596?v=4",
       "profile": "https://github.com/mp-horm",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "osm",
       "name": "Oscar Linderholm",
       "avatar_url": "https://avatars.githubusercontent.com/u/3326440?v=4",
       "profile": "https://github.com/osm",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     }
   ],
   "skipCi": true,

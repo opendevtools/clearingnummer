@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest'
+import { describe, expect, test } from 'bun:test'
 import { allBanks, bankName, clearingNumbers } from '../index'
 
 describe('#bankName', () => {
