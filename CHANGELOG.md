@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/opendevtools/clearingnummer/compare/v1.3.0...v1.4.0) (2023-09-13)
+
+
+### Bug Fixes
+
+* only include dist files ([70887bf](https://github.com/opendevtools/clearingnummer/commit/70887bf04fd51bdfa78ee6d7b7ca94b0f0b8a76a))
+
+
+### Features
+
+* use bun ([8380a6b](https://github.com/opendevtools/clearingnummer/commit/8380a6b8570637ced70beb6675b5ad3bdc14823e))
+
 # [1.3.0](https://github.com/opendevtools/clearingnummer/compare/v1.2.0...v1.3.0) (2021-07-01)
 
 ### Features
