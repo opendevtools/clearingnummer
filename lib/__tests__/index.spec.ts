@@ -2,8 +2,12 @@ import { describe, expect, test } from 'bun:test'
 import { allBanks, bankName, clearingNumbers } from '../index'
 
 describe('#bankName', () => {
+  test('handles undefined', () => {
+    // @ts-expect-error Testing invalid input
+    expect(bankName()).toEqual('')
+  })
+
   test.each([
-    [undefined, ''],
     ['', ''],
     [0, ''],
     [52, ''],
@@ -77,12 +81,9 @@ describe('#bankName', () => {
     ['VP Securities A/S', 9956, 9956],
     ['Ålandsbanken', 2300, 2399],
   ])('%s (%s-%s)', (bank, min, max) => {
-    return new Array(1 + max - min)
-      .fill(0)
-      .map((_, i) => min + i)
-      .forEach((value) => {
-        expect(bankName(value)).toEqual(bank)
-      })
+    for (let i = min; i <= max; i++) {
+      expect(bankName(i)).toEqual(bank)
+    }
   })
 
   test.each([
@@ -117,6 +118,7 @@ describe('#bankName', () => {
 
 describe('#clearingNumbers', () => {
   test('handles undefined', () => {
+    // @ts-expect-error Testing invalid input
     expect(clearingNumbers()).toEqual([])
   })
 
