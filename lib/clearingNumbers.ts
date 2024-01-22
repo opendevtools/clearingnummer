@@ -1,7 +1,7 @@
 export type Range = { max: number; min: number } | { max: string; min: string }
 type Bank = { bank: string; ranges: Range[] }
 
-export default ([
+export default [
   {
     bank: 'RBS',
     ranges: [
@@ -910,4 +910,4 @@ export default ([
       },
     ],
   },
-] as Bank[])
+] as Bank[]
