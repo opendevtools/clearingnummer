@@ -1,4 +1,4 @@
-import banks, { Range } from './clearingNumbers'
+import banks, { type Range } from './clearingNumbers'
 
 type Clearingnummer = string | number
 
