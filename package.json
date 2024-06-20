@@ -8,9 +8,9 @@
   },
   "main": "./dist/index.js",
   "devDependencies": {
-    "@biomejs/biome": "1.7.2",
-    "bun-types": "1.1.9",
-    "rimraf": "5.0.5",
+    "@biomejs/biome": "1.8.1",
+    "bun-types": "1.1.15",
+    "rimraf": "5.0.7",
     "typescript": "5.4.5"
   },
   "bugs": {
@@ -36,7 +36,7 @@
   },
   "scripts": {
     "start": "tsc -w",
-    "lint": "bun biome check --apply lib",
+    "lint": "biome check --write lib",
     "test": "bun test",
     "prebuild:js": "rimraf dist",
     "build:js": "bun build lib/index.ts --minify --outdir ./dist",
