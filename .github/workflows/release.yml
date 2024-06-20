@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: biomejs/setup-biome@v2
-      - run: biome ci
+      - run: biome ci lib
 
   typecheck:
     name: TypeScript

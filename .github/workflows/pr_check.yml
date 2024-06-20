@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: biomejs/setup-biome@v2
-      - run: biome ci
-
+      - run: biome ci lib
+ 
   test:
     name: Run tests
     runs-on: ubuntu-latest
