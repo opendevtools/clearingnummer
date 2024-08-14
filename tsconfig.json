@@ -18,5 +18,7 @@
     "types": [
       "bun-types" // add Bun global
     ]
-  }
+  },
+  "exclude": ["lib/**/*.spec.ts"],
+  "include": ["lib/**/*"]
 }
